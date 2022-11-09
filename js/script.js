@@ -13,18 +13,17 @@ for(let i = 1; i <= 100; i++){
 
         const element = `<div class="box box-${i}">FizzBuzz</div>`
         boxContainer.innerHTML += element
+        // BackGround
+        element.style.backgroundcolor = "green";
         // DEBUG
         console.log("fizzBuzz");
-
+        
     } else if(multiploTre == 0) {
 
         const element = `<div class="box box-${i}">Fizz</div>`
         boxContainer.innerHTML += element
         // DEBUG
         console.log("fizz");
-
-        const multiploTreColor = document.querySelector(".box");
-        multiploTreColor.style.color = "blue"
 
     } else if(multiploCinque == 0){
 
