@@ -17,5 +17,15 @@
     justify-content: center;
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: rgb(19, 67, 237);
+}
+/* change background color */
+div:nth-child(3n + 0){
+    background-color: rgb(23, 237, 144);
+}
+div:nth-child(5n + 0){
+    background-color: rgb(255, 217, 0);
+}
+div:nth-child(15n + 0){
+    background-color: rgb(219, 19, 237);
 }

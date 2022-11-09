@@ -13,8 +13,6 @@ for(let i = 1; i <= 100; i++){
 
         const element = `<div class="box box-${i}">FizzBuzz</div>`
         boxContainer.innerHTML += element
-        // BackGround
-        element.style.backgroundcolor = "green";
         // DEBUG
         console.log("fizzBuzz");
         
