@@ -34,8 +34,19 @@ body{
     height: 100px;
     background-color: rgb(19, 67, 237);
 }
-/* change background color */
-div:nth-child(3n + 0){
+
+.frizz{
+    background-color: rgb(23, 237, 144);
+}
+.frizzbuzz{
+    background-color: rgb(219, 19, 237); 
+}
+.buzz{
+    background-color: rgb(255, 217, 0);
+}
+
+/* POCO MANTENIBILE change background color */
+/* div:nth-child(3n + 0){
     background-color: rgb(23, 237, 144);
 }
 div:nth-child(5n + 0){
@@ -43,4 +54,4 @@ div:nth-child(5n + 0){
 }
 div:nth-child(15n + 0){
     background-color: rgb(219, 19, 237);
-}
+} */

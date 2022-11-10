@@ -11,21 +11,21 @@ for(let i = 1; i <= 100; i++){
     // Istruzioni Condizionali per Multipli
     if(multiploQuindici == 0) {
 
-        const element = `<div class="box box-${i}">FizzBuzz</div>`
+        const element = `<div class="box frizzbuzz">FizzBuzz</div>`
         boxContainer.innerHTML += element
         // DEBUG
         console.log("fizzBuzz");
         
     } else if(multiploTre == 0) {
 
-        const element = `<div class="box box-${i}">Fizz</div>`
+        const element = `<div class="box frizz">Fizz</div>`
         boxContainer.innerHTML += element
         // DEBUG
         console.log("fizz");
 
     } else if(multiploCinque == 0){
 
-        const element = `<div class="box box-${i}">Buzz</div>`
+        const element = `<div class="box buzz">Buzz</div>`
         boxContainer.innerHTML += element
         // DEBUG
         console.log("Buzz");
